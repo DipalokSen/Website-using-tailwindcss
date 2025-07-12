@@ -520,6 +520,240 @@ const Hero = () => {
 </ScrollHorizontal>
 </div>
 
+
+
+{/* steps */}
+
+<div className="steps py-6 px-8 max-w-8xl  mt-12 mx-auto flex-col gap-6">
+
+<h1 className='text-5xl'>How it works</h1>
+
+
+<div className='flex flex-col lg:flex-row border border-gray-300 mt-12 rounded-xl py-8 px-6 gap-4'>
+  
+  <div className='incontents flex flex-col gap-9 md:w-1/2'>
+
+
+
+
+  
+  
+  <span className='bg-yellow-500 text-gray-800 font-semibold w-fit border rounded-xl text-lg py-2 px-6'>Step 1</span>
+  <h1 className='text-3xl font-semibold'>Bootstrap straight from your web app</h1>
+  <p className='text-gray-800'>Copy and paste your web app url into ToDesktop. Customise your app design, app icon and window frame UI with no code.</p>
+
+<ul className='grid grid-cols-2 gap-3'>
+
+  <li className='flex gap-2 '>
+  <i class="fa-solid fa-check"></i>
+  <p className='text-xl border-b border-gray-600 border-opacity-25 '>Multiple windows</p>
+  </li>
+
+
+ <li className='flex gap-2 '>
+  <i class="fa-solid fa-check"></i>
+  <p className='text-xl border-b border-gray-600 border-opacity-25 '>Multiple windows</p>
+  </li>
+
+
+
+   <li className='flex gap-2 '>
+  <i class="fa-solid fa-check"></i>
+  <p className='text-xl border-b border-gray-600 border-opacity-25 '>Multiple windows</p>
+  </li>
+
+
+
+   <li className='flex gap-2 '>
+  <i class="fa-solid fa-check"></i>
+  <p className='text-xl border-b border-gray-600 border-opacity-25 '>Multiple windows</p>
+  </li>
+
+
+   <li className='flex gap-2 '>
+  <i class="fa-solid fa-check"></i>
+  <p className='text-xl border-b border-gray-600 border-opacity-25 '>Multiple windows</p>
+  </li>
+
+
+   <li className='flex gap-2 '>
+  <i class="fa-solid fa-check"></i>
+  <p className='text-xl border-b border-gray-600 border-opacity-25 '>Multiple windows</p>
+  </li>
+
+  
+</ul>
+</div>
+
+
+<div>
+<img src="/Assets/asset 27.svg" alt="" />
+
+</div>
+
+
+
+
+</div>
+
+
+
+<div className='flex flex-col lg:flex-row border border-gray-300 mt-12 rounded-xl py-8 px-6 gap-4'>
+  
+  <div className='incontents flex flex-col gap-9 md:w-1/2'>
+
+
+
+
+  
+  
+  <span className='bg-yellow-500 text-gray-800 font-semibold w-fit border rounded-xl text-lg py-2 px-6'>Step 2</span>
+  <h1 className='text-3xl font-semibold'>Bootstrap straight from your web app</h1>
+  <p className='text-gray-800'>Copy and paste your web app url into ToDesktop. Customise your app design, app icon and window frame UI with no code.</p>
+
+<ul className='grid grid-cols-2 gap-3'>
+
+  <li className='flex gap-2 '>
+  <i class="fa-solid fa-check"></i>
+  <p className='text-xl border-b border-gray-600 border-opacity-25 '>Multiple windows</p>
+  </li>
+
+
+ <li className='flex gap-2 '>
+  <i class="fa-solid fa-check"></i>
+  <p className='text-xl border-b border-gray-600 border-opacity-25 '>Multiple windows</p>
+  </li>
+
+
+
+   <li className='flex gap-2 '>
+  <i class="fa-solid fa-check"></i>
+  <p className='text-xl border-b border-gray-600 border-opacity-25 '>Multiple windows</p>
+  </li>
+
+
+
+   <li className='flex gap-2 '>
+  <i class="fa-solid fa-check"></i>
+  <p className='text-xl border-b border-gray-600 border-opacity-25 '>Multiple windows</p>
+  </li>
+
+
+   <li className='flex gap-2 '>
+  <i class="fa-solid fa-check"></i>
+  <p className='text-xl border-b border-gray-600 border-opacity-25 '>Multiple windows</p>
+  </li>
+
+
+   <li className='flex gap-2 '>
+  <i class="fa-solid fa-check"></i>
+  <p className='text-xl border-b border-gray-600 border-opacity-25 '>Multiple windows</p>
+  </li>
+
+  
+</ul>
+</div>
+
+
+<div>
+<img src="/Assets/asset 27.svg" alt="" />
+
+</div>
+
+
+
+
+</div>
+
+
+
+<div className='flex flex-col lg:flex-row border border-gray-300 mt-12 rounded-xl py-8 px-6 gap-4'>
+  
+  <div className='incontents flex flex-col gap-9 md:w-1/2'>
+
+
+
+
+  
+  
+  <span className='bg-yellow-500 text-gray-800 font-semibold w-fit border rounded-xl text-lg py-2 px-6'>Step 3</span>
+  <h1 className='text-3xl font-semibold'>Bootstrap straight from your web app</h1>
+  <p className='text-gray-800'>Copy and paste your web app url into ToDesktop. Customise your app design, app icon and window frame UI with no code.</p>
+
+<ul className='grid grid-cols-2 gap-3'>
+
+  <li className='flex gap-2 '>
+  <i class="fa-solid fa-check"></i>
+  <p className='text-xl border-b border-gray-600 border-opacity-25 '>Multiple windows</p>
+  </li>
+
+
+ <li className='flex gap-2 '>
+  <i class="fa-solid fa-check"></i>
+  <p className='text-xl border-b border-gray-600 border-opacity-25 '>Multiple windows</p>
+  </li>
+
+
+
+   <li className='flex gap-2 '>
+  <i class="fa-solid fa-check"></i>
+  <p className='text-xl border-b border-gray-600 border-opacity-25 '>Multiple windows</p>
+  </li>
+
+
+
+   <li className='flex gap-2 '>
+  <i class="fa-solid fa-check"></i>
+  <p className='text-xl border-b border-gray-600 border-opacity-25 '>Multiple windows</p>
+  </li>
+
+
+   <li className='flex gap-2 '>
+  <i class="fa-solid fa-check"></i>
+  <p className='text-xl border-b border-gray-600 border-opacity-25 '>Multiple windows</p>
+  </li>
+
+
+   <li className='flex gap-2 '>
+  <i class="fa-solid fa-check"></i>
+  <p className='text-xl border-b border-gray-600 border-opacity-25 '>Multiple windows</p>
+  </li>
+
+  
+</ul>
+</div>
+
+
+<div>
+<img src="/Assets/asset 27.svg" alt="" />
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+   
+
     </div>
 
      </>
