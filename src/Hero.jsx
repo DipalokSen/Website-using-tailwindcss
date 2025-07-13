@@ -902,6 +902,58 @@ const Hero = () => {
 
 
 
+{/* companyScroll */}
+
+
+
+
+<div className='py-6 px-8 max-w-8xl  mt-12 mx-auto '>
+
+  <div className="border rounded-lg  flex justify-center p-6 whitespace-nowrap overflow-hidden">
+   <ScrollHorizontal speed={0.5} isLTR={false}>
+   <div className="flex gap-8 p-4">
+
+                    <h3 class="my-0 mx-2 whitespace-nowrap font-display text-2xl font-semibold leading-7">Download Analytics</h3>
+                    <span>•</span>
+                    <h3 class="my-0 mx-2 whitespace-nowrap font-display text-2xl font-semibold leading-7">Custom Menus</h3>
+                    <span>•</span>
+                    <h3 class="my-0 mx-2 whitespace-nowrap font-display text-2xl font-semibold leading-7">Multi-window support</h3>
+                    <span>•</span>
+                    <h3 class="my-0 mx-2 whitespace-nowrap font-display text-2xl font-semibold leading-7">Trays</h3>
+                    <span>•</span>
+                    <h3 class="my-0 mx-2 whitespace-nowrap font-display text-2xl font-semibold leading-7">Deep Linking</h3>
+                    <span>•</span>
+                    <h3 class="my-0 mx-2 whitespace-nowrap font-display text-2xl font-semibold leading-7">Download Analytics</h3>
+                    <span>•</span>
+                    <h3 class="my-0 mx-2 whitespace-nowrap font-display text-2xl font-semibold leading-7">Launch at startup</h3>
+                    <span>•</span>
+                    <h3 class="my-0 mx-2 whitespace-nowrap font-display text-2xl font-semibold leading-7">Offline Support</h3>
+                    <span>•</span>
+                    <h3 class="my-0 mx-2 whitespace-nowrap font-display text-2xl font-semibold leading-7">Good Signing</h3>
+                    <span>•</span>
+
+
+    
+
+
+
+   </div>
+</ScrollHorizontal>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+</div>    
+{/* end */}
+
    
 
     </div>
