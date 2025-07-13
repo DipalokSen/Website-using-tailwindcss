@@ -752,6 +752,156 @@ const Hero = () => {
 </div>
 
 
+{/* banter Grid Section */}
+<div className="banter-grid py-6 px-8 max-w-8xl  mt-12 flex flex-col gap-5 mx-auto"  >
+  <h1 className='text-5xl'>ToDesktop handles the details</h1>
+
+  <div className="flex flex-col gap-6 lg:grid lg:grid-cols-3"  >
+
+
+    <div className='rounded-2xl p-[1px] bg-slate-200 mt-2 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200'>
+  
+      <div className='flex flex-col gap-6 items-center  w-full h-full bg-white rounded-2xl hover:bg-gradient-to-br hover:from-red-100 hover:via-purple-100 hover:to-yellow-100'>
+        <h1 className='text-2xl font-semibold'>Native Notifications</h1>
+        <img src="Assets/asset 37.png" alt="" />
+      </div>
+
+
+      
+
+
+
+
+
+
+
+    </div>
+
+<div className='rounded-2xl p-[1px] bg-slate-200 mt-2 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200'>
+  
+      <div className='flex flex-col gap-6 items-center w-full h-full py-2 px-8 bg-white rounded-2xl hover:bg-gradient-to-br hover:from-red-100 hover:via-purple-100 hover:to-yellow-100'>
+        <h1 className='text-2xl font-semibold'>Native Notifications</h1>
+
+        <p className='text-xl'>We’ll ensure the underlying browser is up to date and deliver performance improvements, security patches, & additional features.</p>
+        <img src="Assets/asset 38.png" alt="" />
+      </div>
+
+
+      
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <div className='rounded-2xl p-[1px] bg-slate-200 mt-2 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200'>
+  
+      <div className='flex flex-col gap-6 items-center py-2 px-8 w-full h-full bg-white rounded-2xl hover:bg-gradient-to-br hover:from-red-100 hover:via-purple-100 hover:to-yellow-100'>
+        <h1 className='text-2xl font-semibold'>Native Notifications</h1>
+
+        
+        <img src="Assets/asset 39.png" alt="" />
+      </div>
+
+
+      
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <div className='rounded-2xl p-[1px] bg-slate-200 mt-2 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200'>
+  
+      <div className='flex flex-col gap-6 items-center py-2 px-8 w-full h-full bg-white rounded-2xl hover:bg-gradient-to-br hover:from-red-100 hover:via-purple-100 hover:to-yellow-100'>
+        <h1 className='text-2xl font-semibold'>Native Notifications</h1>
+        <p className='text-xl'>We’ll ensure the underlying browser is up to date and deliver performance improvements, security patches, & additional features.</p>
+        <img src="Assets/asset 40.png" alt="" />
+      </div>
+
+
+      
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <div className='rounded-2xl p-[1px] bg-slate-200 mt-2 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200'>
+  
+      <div className='flex flex-col gap-6 items-center py-2 px-8 w-full h-full bg-white rounded-2xl hover:bg-gradient-to-br hover:from-red-100 hover:via-purple-100 hover:to-yellow-100'>
+        <h1 className='text-2xl font-semibold'>Native Notifications</h1>
+        <img src="Assets/asset 37.png" alt="" />
+      </div>
+
+
+      
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <div className='rounded-2xl p-[1px] bg-slate-200 mt-2 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200'>
+  
+      <div className='flex flex-col gap-6 items-center py-2 px-8 w-full h-full bg-white rounded-2xl hover:bg-gradient-to-br hover:from-red-100 hover:via-purple-100 hover:to-yellow-100'>
+        <h1 className='text-2xl font-semibold'>Native Notifications</h1>
+
+        <p className='text-xl'>We’ll ensure the underlying browser is up to date and deliver performance improvements, security patches, & additional features.</p>
+        <img src="Assets/asset 38.png" alt="" />
+      </div>
+
+
+      
+
+
+
+
+
+
+
+    </div>
+
+  
+  
+  
+  
+  
+  </div>
+ 
+  
+
+
+
+</div>
+
+
+
+
+
+
+
+
    
 
     </div>
