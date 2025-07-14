@@ -954,6 +954,105 @@ const Hero = () => {
 </div>    
 {/* end */}
 
+
+
+
+{/* testimonial */}
+
+
+<div className="testimonial py-6 px-8 max-w-8xl  mt-12 mx-auto ">
+
+<h3 className='text-4xl font-semibold'>Customer stories</h3>
+
+<div className='border rounded-lg p-6  md:mt-6'>
+
+
+<div className='flex-col gap-4 md:flex md:flex-row '>
+
+ <div className="left flex flex-col gap-9 mt-12 p-4">
+ 
+  <div className="logo h-4">
+    <img src="Assets/asset 44.svg" alt="logo" />
+  </div>
+
+  <p className='text-xl font-semi-bold'>ClickUp used ToDesktop to get their desktop app in front of customers in days instead of months.</p>
+
+  <div className="flex-component flex gap-2 flex-wrap">
+
+    <div className='border rounded-lg bg-yellow-100 border-yellow-200 px-4 py-1 flex gap-2 items-center text-yellow-800'>
+      <i class="fa-solid fa-check"></i>
+      <p className='font-medium text-lg'>Chromeless UI</p>
+  
+    </div>
+
+     <div className='border rounded-lg bg-yellow-100 border-yellow-200 px-4 py-1 flex gap-2 items-center text-yellow-800'>
+      <i class="fa-solid fa-check"></i>
+      <p className='font-medium text-lg'>Native spellcheck</p>
+  
+    </div>
+
+
+     <div className='border rounded-lg bg-yellow-100 border-yellow-200 px-4 py-1 flex gap-2 items-center text-yellow-800'>
+      <i class="fa-solid fa-check"></i>
+      <p className='font-medium text-lg'>Chromeless UI</p>
+  
+    </div>
+
+
+     <div className='border rounded-lg bg-yellow-100 border-yellow-200 px-4 py-1 flex gap-2 items-center text-yellow-800'>
+      <i class="fa-solid fa-check"></i>
+      <p className='font-medium text-lg'>Chromeless UI</p>
+  
+    </div>
+
+
+     <div className='border rounded-lg bg-yellow-100 border-yellow-200 px-4 py-1 flex gap-2 items-center text-yellow-800'>
+      <i class="fa-solid fa-check"></i>
+      <p className='font-medium text-lg'>Chromeless UI</p>
+  
+    </div>
+  </div>
+  <p className='text-xl font-light leading-snug'>“ToDesktop provided us with a polished desktop app in no time. Their expert team guided us through a smooth migration from our outdated legacy desktop app, enabling us to deliver new and improved features to our customers within days.”</p>
+
+  <div className='flex gap-2'>
+    <div className='img'>
+      <img src="Assets/asset 45.jpeg" alt="client" className='rounded-full'/>
+    </div>
+
+    <div className='flex-col'>
+      <p className='font-bold'>Zeb Evans</p>
+      <p>Founder & CEO, ClickUp</p>
+    </div>
+  </div>
+
+
+
+
+ </div>
+
+<div className="right">
+
+
+<div className='md:w-[670px]'>
+ <img src="Assets/asset 46.png" alt="" className='pl-12'/>
+</div>
+
+
+
+
+
+</div>
+
+</div>
+
+
+</div>
+
+
+
+
+
+</div>
    
 
     </div>
