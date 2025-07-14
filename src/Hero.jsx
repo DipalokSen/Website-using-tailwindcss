@@ -1043,16 +1043,169 @@ const Hero = () => {
 
 </div>
 
-</div>
 
-
-</div>
 
 
 
 
 
 </div>
+
+
+</div>
+
+
+
+
+<div className='flex flex-col md:flex-row mt-4 gap-3'>
+
+  
+<div className="border rounded-2xl p-6 bg-white hover:bg-gradient-to-br hover:from-red-100 hover:via-purple-100 hover:to-yellow-100">
+  
+ 
+ <div className="flex flex-col gap-6">
+
+<div className='flex gap-2 items-center '>
+<div className='bg-blue-200 rounded-full p-3'> 
+
+<i class="fa-solid fa-code"></i>
+</div>
+<p className='font-bold text-2xl'>Native APIs</p>
+</div>
+
+<p className='text-xl'>What sets ToDesktop apart is its seamless integration with native APIs using our existing web codebase. By tapping into APIs like Tray and Notifications, we've crafted an exceptionally polished desktop user experience.</p>
+
+
+
+
+ <div className='flex items-center gap-4'>
+ <div className='img2 '>
+    <img src="Assets/asset 48.jpeg" alt="" className='rounded-full'/>
+  </div>
+
+  <div className='flex flex-col'>
+    <p className='text-lg font-semibold'>Rick Pastoor</p>
+    <p className=''>Rise</p>
+  </div>
+
+
+ </div>
+
+ 
+
+
+
+
+
+
+
+ </div>
+
+
+
+</div>
+
+
+
+
+<div className="border rounded-2xl p-6 bg-white hover:bg-gradient-to-br hover:from-red-100 hover:via-purple-100 hover:to-yellow-100">
+  
+ 
+ <div className="flex flex-col gap-6">
+
+<div className='flex gap-2 items-center '>
+<div className='bg-blue-200 rounded-full p-3'> 
+
+<i class="fa-solid fa-code"></i>
+</div>
+<p className='font-bold text-2xl'>Native APIs</p>
+</div>
+
+<p className='text-xl'>What sets ToDesktop apart is its seamless integration with native APIs using our existing web codebase. By tapping into APIs like Tray and Notifications, we've crafted an exceptionally polished desktop user experience.</p>
+
+
+
+
+ <div className='flex items-center gap-4'>
+ <div className='img2 '>
+    <img src="Assets/asset 48.jpeg" alt="" className='rounded-full'/>
+  </div>
+
+  <div className='flex flex-col'>
+    <p className='text-lg font-semibold'>Rick Pastoor</p>
+    <p className=''>Rise</p>
+  </div>
+
+
+ </div>
+
+ 
+
+
+
+
+
+
+
+ </div>
+
+
+
+</div>
+
+
+
+
+
+<div className="border rounded-2xl p-6 bg-white hover:bg-gradient-to-br hover:from-red-100 hover:via-purple-100 hover:to-yellow-100">
+  
+ 
+ <div className="flex flex-col gap-6">
+
+<div className='flex gap-2 items-center '>
+<div className='bg-blue-200 rounded-full p-3'> 
+
+<i class="fa-solid fa-code"></i>
+</div>
+<p className='font-bold text-2xl'>Native APIs</p>
+</div>
+
+<p className='text-xl'>What sets ToDesktop apart is its seamless integration with native APIs using our existing web codebase. By tapping into APIs like Tray and Notifications, we've crafted an exceptionally polished desktop user experience.</p>
+
+
+
+
+ <div className='flex items-center gap-4'>
+ <div className='img2 '>
+    <img src="Assets/asset 48.jpeg" alt="" className='rounded-full'/>
+  </div>
+
+  <div className='flex flex-col'>
+    <p className='text-lg font-semibold'>Rick Pastoor</p>
+    <p className=''>Rise</p>
+  </div>
+
+
+ </div>
+
+ 
+
+
+
+
+
+
+
+ </div>
+
+
+
+</div>
+
+</div>
+
+</div>
+   
    
 
     </div>
