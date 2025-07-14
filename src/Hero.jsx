@@ -1280,7 +1280,220 @@ const Hero = () => {
 
 
   
+ <div className="testimonial py-6 px-8 max-w-8xl  mt-12 mx-auto ">
+
+<h3 className='text-6xl font-semibold leading-snug'>Choose a plan that fits <br/> your needs</h3>
+
+
+
+<div className='flex flex-col md:flex-row mt-4 gap-3'>
+
+  
+<div className="border rounded-2xl p-6 bg-white hover:bg-gradient-to-br hover:from-red-100 hover:via-purple-100 hover:to-yellow-100">
+  
  
+ <div className="flex flex-col gap-6">
+
+ <p className='text-5xl'>Free</p>
+
+<p className='text-2xl'>For personal use or testing your app before deploying to customers.</p>
+
+
+
+<div className='flex flex-col gap-4'>
+ <p className='text-xl'>Key Features</p>
+
+<div className="flex items-center gap-3">
+  <i class="fa-solid fa-check"></i>
+  <p className='text-xl'>Free for personal use</p>
+</div>
+
+
+
+
+<div className="flex items-center gap-3">
+  <i class="fa-solid fa-check"></i>
+  <p className='text-xl'>Free for personal use</p>
+</div>
+
+
+<div className="flex items-center gap-3">
+  <i class="fa-solid fa-xmark"></i>
+  <p className='text-xl'>Free for personal use</p>
+</div>
+
+
+<div className="flex items-center gap-3">
+  <i class="fa-solid fa-xmark"></i>
+  <p  className='text-xl'>Free for personal use</p>
+</div>
+
+
+</div>
+
+
+
+<button className='rounded-xl p-4 hover:border bg-slate-50 '>
+  <p>Read Docs</p>
+</button>
+
+
+ 
+
+
+
+
+
+
+
+ </div>
+
+
+
+</div>
+
+
+
+
+<div className="border rounded-2xl p-6 bg-white hover:bg-gradient-to-br hover:from-red-100 hover:via-purple-100 hover:to-yellow-100">
+  
+ 
+ <div className="flex flex-col gap-6">
+
+ <p className='text-5xl'>Essential</p>
+
+<p className='text-2xl'>For personal use or testing your app before deploying to customers.</p>
+
+
+
+<div className='flex flex-col gap-4'>
+ <p className='text-xl'>Key Features</p>
+
+<div className="flex items-center gap-3">
+  <i class="fa-solid fa-check"></i>
+  <p className='text-xl'>Free for personal use</p>
+</div>
+
+
+
+
+<div className="flex items-center gap-3">
+  <i class="fa-solid fa-check"></i>
+  <p className='text-xl'>Free for personal use</p>
+</div>
+
+
+<div className="flex items-center gap-3">
+  <i class="fa-solid fa-xmark"></i>
+  <p className='text-xl'>Free for personal use</p>
+</div>
+
+
+<div className="flex items-center gap-3">
+  <i class="fa-solid fa-xmark"></i>
+  <p  className='text-xl'>Free for personal use</p>
+</div>
+
+
+</div>
+
+
+
+<button className='rounded-xl p-4 hover:border bg-slate-50 '>
+  <p>Read Docs</p>
+</button>
+
+
+ 
+
+
+
+
+
+
+
+ </div>
+
+
+
+</div>
+
+
+
+<div className="border rounded-2xl p-6 bg-white hover:bg-gradient-to-br hover:from-red-100 hover:via-purple-100 hover:to-yellow-100 relative">
+  
+ 
+ <div className="flex flex-col gap-6">
+
+ <p className='text-5xl'>Free</p>
+
+<p className='text-2xl'>For personal use or testing your app before deploying to customers.</p>
+
+
+
+<div className='flex flex-col gap-4'>
+ <p className='text-xl'>Key Features</p>
+
+<div className="flex items-center gap-3">
+  <i class="fa-solid fa-check"></i>
+  <p className='text-xl'>Free for personal use</p>
+</div>
+
+
+
+
+<div className="flex items-center gap-3">
+  <i class="fa-solid fa-check"></i>
+  <p className='text-xl'>Free for personal use</p>
+</div>
+
+
+<div className="flex items-center gap-3">
+  <i class="fa-solid fa-xmark"></i>
+  <p className='text-xl'>Free for personal use</p>
+</div>
+
+
+<div className="flex items-center gap-3">
+  <i class="fa-solid fa-xmark"></i>
+  <p  className='text-xl'>Free for personal use</p>
+</div>
+
+
+</div>
+
+
+
+<button className='rounded-xl p-4 hover:border bg-slate-50 '>
+  <p>Read Docs</p>
+</button>
+
+
+ 
+
+
+
+
+
+
+
+ </div>
+
+
+
+
+
+
+
+
+
+<div className='bg-blue-300 w-27 h-9 text-center rounded-2xl flex items-center justify-center absolute top-[-13px] right-[20px]'>Most Popular</div>
+
+</div>
+
+</div>
+
+</div>
 
 
     </div>
