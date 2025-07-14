@@ -1208,6 +1208,81 @@ const Hero = () => {
    
    
 
+
+
+
+
+
+<div className="testimonial py-6 px-8 max-w-8xl  mt-2 mx-auto ">
+
+{/* <h3 className='text-4xl font-semibold'>Customer stories</h3> */}
+
+<div className='border rounded-2xl p-6  md:mt-6 bg-black'>
+
+
+<div className='flex-col gap-4 md:flex md:flex-row '>
+
+ <div className="left flex flex-col gap-9 mt-12 p-4">
+ 
+ 
+
+  <p className='text-xl font-semi-bold text-slate-300'>READY TO START BUILDING?</p>
+
+  <h1 className='text-6xl text-white font-bold'>Create your desktop app for free*</h1>
+  <p className='text-xl font-light leading-snug text-slate-300'>“ToDesktop Builder will take you step-by-step through the process of creating your first desktop app in just a few minutes.</p>
+
+  <button className=' py-3 rounded-xl bg-blue-600 text-white hover:bg-blue-700'>
+    <div className='flex items-center justify-center gap-2'>
+
+      <i class="fa-solid fa-download"></i>
+
+      <p className='text-xl'>Download Todesktop Builder</p>
+    </div>
+  </button>
+
+  <p className='text-sm text-slate-500 italic'>*You can create a desktop app and run it on your computer for free. You will only be charged if you want to create a distributable app for your customers.</p>
+
+
+
+
+ </div>
+
+<div className="right">
+
+
+<div className='md:w-[670px]'>
+ <img src="Assets/asset 46.png" alt="" className='pl-12'/>
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+  
+ 
+
+
     </div>
 
      </>
