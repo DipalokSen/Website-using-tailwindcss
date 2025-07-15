@@ -8,7 +8,7 @@ const App = () => {
     <Navbar/>
     <Hero/>
     
-    <div className='h-screen bg-red-100'></div>
+    
     
     </>
   )

@@ -1682,6 +1682,55 @@ const Hero = () => {
 </div>
 
 
+{/* Footer */}
+
+
+<div className='py-6 px-8 max-w-8xl  mt-12 mx-auto flex flex-col'>
+
+<div className='rounded-2xl bg-gray-100 py-12'>
+
+  <div className='flex flex-col  md:flex-row-reverse items-center gap-12'>
+    
+     
+
+
+     
+     <p className='text-lg font-semibold'>Documentation</p>
+
+     <div className='flex gap-6'>
+      <i class="fa-brands fa-x-twitter text-xl font-bold  " ></i>
+       <i class="fa-brands fa-github text-xl font-bold  " ></i>
+     </div>
+
+
+     <a href="#" className='flex flex-1 items-center'>
+        <img src="/Assets/logo.png" alt="" />
+        <p className='text-xl font-medium'>ToDesktop</p>
+      </a>
+
+
+
+  </div>
+
+</div>
+
+
+<div className="subfooter flex flex-col items-center mt-12 gap-5">
+
+  <div className="img flex gap-2 items-center">
+    <img src="Assets/asset 54.svg" alt="sub" className='w-4 h-4'/>
+    <p>A Y Combinator company.</p>
+  </div>
+
+<p className='text-sm text-slate-400'>© 2024 ToDesktop, Inc. All rights reserved.</p>
+
+
+
+
+</div>
+
+</div>
+
 
     </div>
 
