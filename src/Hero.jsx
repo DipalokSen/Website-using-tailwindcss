@@ -1,7 +1,43 @@
 import React from 'react'
 import ScrollHorizontal from './Components/ScrollHorizontal'
+import { useState } from 'react';
 
 const Hero = () => {
+  
+  //  const [blackStatus, setblackStatus] = useState('hidden');
+
+  //  const [upStatus, setupStatus] = useState('up');
+   
+   
+ const [openCardIndex, setopenCardIndex] = useState(null);
+ 
+
+  const handleclick=(index)=>{
+
+    //   if(blackStatus==='hidden'){
+    //     setblackStatus('block')
+    //   }
+
+    //   else{
+    //     setblackStatus('hidden')
+    //   }
+
+    //  if(upStatus==='up'){
+    //   setupStatus('down')
+    //  }
+    //  else{
+    //   setupStatus('up')
+    //  }
+
+
+
+     setopenCardIndex(openCardIndex===index?'null':index)
+
+
+
+  }
+
+
   return (
     <>
     
@@ -1289,12 +1325,12 @@ const Hero = () => {
 <div className='flex flex-col md:flex-row mt-4 gap-3'>
 
   
-<div className="border rounded-2xl p-6 bg-white hover:bg-gradient-to-br hover:from-red-100 hover:via-purple-100 hover:to-yellow-100">
+<div className="border rounded-2xl p-8 bg-white hover:bg-gradient-to-br hover:from-red-100 hover:via-purple-100 hover:to-yellow-100 flex-1 ">
   
  
  <div className="flex flex-col gap-6">
 
- <p className='text-5xl'>Free</p>
+ <p className='text-4xl font-semibold'>Free</p>
 
 <p className='text-2xl'>For personal use or testing your app before deploying to customers.</p>
 
@@ -1355,16 +1391,18 @@ const Hero = () => {
 
 
 
-<div className="border rounded-2xl p-6 bg-white hover:bg-gradient-to-br hover:from-red-100 hover:via-purple-100 hover:to-yellow-100">
+<div className="border rounded-2xl p-8 bg-white hover:bg-gradient-to-br hover:from-red-100 hover:via-purple-100 hover:to-yellow-100 flex-1">
   
  
  <div className="flex flex-col gap-6">
 
- <p className='text-5xl'>Essential</p>
-
-<p className='text-2xl'>For personal use or testing your app before deploying to customers.</p>
+ <p className='text-4xl font-semibold'>Essential</p>
 
 
+
+<p className='text-2xl'>For simple desktop apps.</p>
+
+ <p><span className='font-bold text-2xl'>$99</span>/month</p>
 
 <div className='flex flex-col gap-4'>
  <p className='text-xl'>Key Features</p>
@@ -1420,14 +1458,16 @@ const Hero = () => {
 
 
 
-<div className="border rounded-2xl p-6 bg-white hover:bg-gradient-to-br hover:from-red-100 hover:via-purple-100 hover:to-yellow-100 relative">
+<div className="border rounded-2xl p-8 bg-white hover:bg-gradient-to-br hover:from-red-100 hover:via-purple-100 hover:to-yellow-100 relative flex-1">
   
  
  <div className="flex flex-col gap-6">
 
- <p className='text-5xl'>Free</p>
+ <p className='text-4xl font-semibold'>Professional</p>
 
-<p className='text-2xl'>For personal use or testing your app before deploying to customers.</p>
+<p className='text-2xl'>For sophisticated desktop apps.</p>
+
+<p><span className='font-bold text-2xl'>$199</span>/month</p>
 
 
 
@@ -1464,7 +1504,7 @@ const Hero = () => {
 
 
 
-<button className='rounded-xl p-4 hover:border bg-slate-50 '>
+<button className='rounded-xl p-4 hover:border bg-blue-700 text-white '>
   <p>Read Docs</p>
 </button>
 
@@ -1487,13 +1527,160 @@ const Hero = () => {
 
 
 
-<div className='bg-blue-300 w-27 h-9 text-center rounded-2xl flex items-center justify-center absolute top-[-13px] right-[20px]'>Most Popular</div>
+<div className='bg-indigo-100 w-27 h-9 text-center text-blue-800 rounded-2xl flex items-center justify-center absolute top-[-13px] right-[20px]'>Most Popular</div>
 
 </div>
 
 </div>
 
 </div>
+
+
+
+{/* FAQS */}
+
+<div className='FAQS py-6 px-8 max-w-8xl  mt-12 mx-auto'>
+ 
+  <h1 className='text-4xl font-semibold '>FAQS</h1>
+  
+<div className='grid grid-cols-1 md:grid-cols-2 mt-4 gap-4 items-start'>
+ <div className="border border-gray-200 bg-gray-50 rounded-xl p-6" onClick={()=>{handleclick(0)}}>
+
+    
+
+     <div className="flex justify-between items-center">
+      <p className='text-lg font-semibold'>Is ToDesktop For Me?</p>
+      <i class={`fa-solid fa-chevron-${openCardIndex===0?'down':'up'}`}></i>
+
+     </div>
+
+     <div className={`${openCardIndex===0?'block':'hidden'} mt-4 text-xl text-slate-700`}>
+      <p>That depends! If you would like to distribute your web app to your users as a downloadable desktop app then ToDesktop is for you.</p>
+     </div>
+
+
+
+ 
+  </div>
+
+
+
+
+ 
+
+  <div className="border border-gray-200 bg-gray-50 rounded-xl p-6" onClick={()=>{handleclick(1)}}>
+
+    
+
+     <div className="flex justify-between items-center">
+      <p className='text-lg font-semibold'>Is ToDesktop For Me?</p>
+      <i class={`fa-solid fa-chevron-${openCardIndex===1?'down':'up'}`}></i>
+
+     </div>
+
+     <div className={`${openCardIndex===1?'block':'hidden'} mt-4 text-xl text-slate-700`}>
+      <p>That depends! If you would like to distribute your web app to your users as a downloadable desktop app then ToDesktop is for you.</p>
+     </div>
+
+
+
+ 
+  </div>
+
+
+
+ <div className="border border-gray-200 bg-gray-50 rounded-xl p-6" onClick={()=>{handleclick(2)}}>
+
+    
+
+     <div className="flex justify-between items-center">
+      <p className='text-lg font-semibold'>Is ToDesktop For Me?</p>
+      <i class={`fa-solid fa-chevron-${openCardIndex===2?'down':'up'}`}></i>
+
+     </div>
+
+     <div className={`${openCardIndex===2?'block':'hidden'} mt-4 text-xl text-slate-700`}>
+      <p>That depends! If you would like to distribute your web app to your users as a downloadable desktop app then ToDesktop is for you.</p>
+     </div>
+
+
+
+ 
+  </div>
+
+ 
+
+
+  <div className="border border-gray-200 bg-gray-50 rounded-xl p-6" onClick={()=>{handleclick(3)}}>
+
+    
+
+     <div className="flex justify-between items-center">
+      <p className='text-lg font-semibold'>Is ToDesktop For Me?</p>
+      <i class={`fa-solid fa-chevron-${openCardIndex===3?'down':'up'}`}></i>
+
+     </div>
+
+     <div className={`${openCardIndex===3?'block':'hidden'} mt-4 text-xl text-slate-700`}>
+      <p>That depends! If you would like to distribute your web app to your users as a downloadable desktop app then ToDesktop is for you.</p>
+     </div>
+
+
+
+ 
+  </div>
+ 
+
+ <div className="border border-gray-200 bg-gray-50 rounded-xl p-6" onClick={()=>{handleclick(4)}}>
+
+    
+
+     <div className="flex justify-between items-center">
+      <p className='text-lg font-semibold'>Is ToDesktop For Me?</p>
+      <i class={`fa-solid fa-chevron-${openCardIndex===4?'down':'up'}`}></i>
+
+     </div>
+
+     <div className={`${openCardIndex===4?'block':'hidden'} mt-4 text-xl text-slate-700`}>
+      <p>That depends! If you would like to distribute your web app to your users as a downloadable desktop app then ToDesktop is for you.</p>
+     </div>
+
+
+
+ 
+  </div>
+
+
+ <div className="border border-gray-200 bg-gray-50 rounded-xl p-6" onClick={()=>{handleclick(5)}}>
+
+    
+
+     <div className="flex justify-between items-center">
+      <p className='text-lg font-semibold'>Is ToDesktop For Me?</p>
+      <i class={`fa-solid fa-chevron-${openCardIndex===5?'down':'up'}`}></i>
+
+     </div>
+
+     <div className={`${openCardIndex===5?'block':'hidden'} mt-4 text-xl text-slate-700`}>
+      <p>That depends! If you would like to distribute your web app to your users as a downloadable desktop app then ToDesktop is for you.</p>
+     </div>
+
+
+
+ 
+  </div>
+
+
+
+</div>
+
+ 
+
+
+
+
+</div>
+
 
 
     </div>
